@@ -5,7 +5,7 @@ import { BookOpen, Briefcase, ArrowRight } from 'lucide-react';
 import Commonbtn from '@/components/ui/Commonbtn';
 
 const WhatWeDo = () => {
-  const words = `Cybernaut Edu-Tech empowers learners with hands-on training,
+  const words = `Cybernaut EdTech empowers learners with hands-on training,
                   future-ready tools, and expert guidance to excel in top tech companies
                   like MAANG.`;
 

@@ -10,12 +10,6 @@ const slides = [
         title: "Jayasurya",
         Role: "Founder",
         description: "“Jayasurya Gnanavel transforms education, training 2000+ students and making Cybernaut a global leader.”"
-    },
-    {
-        url: "https://res.cloudinary.com/ddpbtvesl/image/upload/v1753717974/5a33f30a-75c3-440b-9e6e-8112c76886f4.png",
-        title: "Manish",
-        Role: "Co-Founder",
-        description: "“B. Manish Kumar leads Cybernaut, using his design skills to drive innovation and success.”"
     }
 ];
 

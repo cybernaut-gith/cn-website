@@ -140,7 +140,7 @@ const Founders = () => {
               </div>
             </div>
           </section>
-          <section className='relative hidden lg:block -top-20'>
+          {/* <section className='relative hidden lg:block -top-20'>
             <Card className="relative mx-auto w-[70rem]  h-[37rem] z-40 rounded-[3rem] border-b-white border-b-0 border-r-2  border-t-2 border-l-2 overflow-hidden bg-transparent border-blue-500 p-8">
               <div className="flex flex-col gap-8  lg:flex-row lg:items-start lg:justify-between">
                 <div className="lg:w-[400px]">
@@ -150,15 +150,15 @@ const Founders = () => {
                         <Image
                           width={300}
                           height={354}
-                          src="https://res.cloudinary.com/ddpbtvesl/image/upload/v1753717974/5a33f30a-75c3-440b-9e6e-8112c76886f4.png"
+                          //src="https://res.cloudinary.com/ddpbtvesl/image/upload/v1753717974/5a33f30a-75c3-440b-9e6e-8112c76886f4.png"
                           alt="Profile"
                           className="h-full w-full object-cover"
                         />
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className="space-y-1 lg:max-w-[60%] ">
+                </div> */}
+                {/* <div className="space-y-1 lg:max-w-[60%] ">
                   <h2 className="text-2xl font-medium">Co-Founder & President</h2>
                   <h1 className="text-4xl py-3 font-bold tracking-tight lg:text-5xl">
                     Manish Kumar
@@ -166,8 +166,8 @@ const Founders = () => {
                   <p className="text-lg text-justify leading-relaxed text-gray-800">
                     B. Manish Kumar, President and UI/UX Designer at Cybernaut, combines design expertise with strategic vision. His commitment to quality drives innovation and supports the company&apos;s growth, shaping Cybernaut&apos;s journey toward long-term success and excellence in education and technology.
                   </p>
-                </div>
-              </div>
+                </div> */}
+              {/* </div>
               <div className="absolute flex justify-center pb-20 items-center bottom-[0.1rem] -right-1  w-[30rem] h-24 rounded-br-[3rem]  rounded-bl-[3rem] shadow-[-0.1rem_0.1rem_0_0] shadow-blue-500">
                 <div className=' flex justify-center items-center flex-col w-1/3 h-20'>
                   <div className="flex flex-row items-start  relative   justify-start  w-[14rem]">
@@ -206,7 +206,7 @@ const Founders = () => {
                   %</h1>
               </div>
             </div>
-          </section>
+          </section> */}
         </div>
         <div className='flex lg:hidden justify-center mx-auto  bg-sky-100 w-12/12 min-h-96'>
           <div className='flex justify-center w-full mx-auto bg-gray-100/0'>
@@ -285,7 +285,7 @@ const Founders = () => {
           </div>
         </div>
         {/* ----------------------------Manish---------------------------------------- */}
-        <div className="container px-10 lg:pt-10  flex flex-col md:flex-row items-center justify-center gap-5  mx-auto">
+        {/* <div className="container px-10 lg:pt-10  flex flex-col md:flex-row items-center justify-center gap-5  mx-auto">
 
           <div className="w-full md:w-1/2 lg:w-full lg:h-[30rem] space-y-6 flex items-center justify-center ">
             <div className='relative  w-[29rem] lg:min-h-96'>
@@ -306,9 +306,9 @@ const Founders = () => {
                 className="rounded-[2rem] w-[30rem] h-96 relative z-10 object-cover lg:hidden"
               />
             </div>
-          </div>
+          </div> */}
 
-          <div className="w-full  min-h-96 flex items-center justify-center ">
+          {/* <div className="w-full  min-h-96 flex items-center justify-center ">
             <div className='w-[33rem] min-h-80  space-y-3'>
               <h1 className="text-lg md:text-2xl lg:text-2xl font-bold    text-[#1F1F3D]">
                 Hello, I&apos;m Manish Kumar
@@ -345,9 +345,8 @@ const Founders = () => {
                   <ArrowRight className="ml-2" />
                 </Commonbtn>
               </a> */}
-            </div>
-          </div>
-        </div>
+
+    
       </section>
 
 
@@ -441,83 +440,6 @@ const Founders = () => {
             </div>
           </div>
 
-          {/* Manish Section */}
-          <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
-            <div className="lg:w-1/2">
-              <div className="relative">
-                <div className="w-80 h-80 bg-blue-200 rounded-[2rem] absolute -left-5 -bottom-5 hidden lg:block" />
-                <Image
-                  width={500}
-                  height={500}
-                  src="https://res.cloudinary.com/ddpbtvesl/image/upload/v1753717974/5a33f30a-75c3-440b-9e6e-8112c76886f4.png"
-                  alt="Manish Kumar"
-                  className="rounded-[2rem] relative z-10 object-cover w-full max-w-xl mx-auto hidden lg:block"
-                />
-                <Image
-                  width={500}
-                  height={500}
-                  src="https://res.cloudinary.com/ddpbtvesl/image/upload/v1753717974/5a33f30a-75c3-440b-9e6e-8112c76886f4.png"
-                  alt="Manish Kumar"
-                  className="rounded-[2rem] relative z-10 object-cover w-full max-w-xl mx-auto lg:hidden"
-                />
-              </div>
-            </div>
-
-            <div className="lg:w-1/2 space-y-6">
-              <div className="max-w-xl">
-                <h2 className="text-2xl md:text-3xl font-bold text-[#1F1F3D] mb-2">
-                  Hello, I&apos;m Manish Kumar
-                </h2>
-                <h3 className="text-xl text-[#00A3FF] font-semibold mb-4">
-                  Co-Founder & President
-                </h3>
-                <p className="text-gray-600 leading-relaxed mb-6">
-                  B. Manish Kumar, President and UI/UX Designer at Cybernaut, combines design
-                  expertise with strategic vision. His commitment to quality drives innovation
-                  and supports the company&apos;s growth, shaping Cybernaut&apos;s journey toward
-                  long-term success and excellence in education and technology.
-                </p>
-                <div className="flex justify-between items-center mb-6">
-                  <p className="text-lg text-gray-800">
-                    Students Trained <span className="text-2xl font-bold">10K+</span>
-                  </p>
-                  <div className="flex gap-3">
-                    <a href="https://www.instagram.com/i.n.t.e.r.n.e.t.m.o.n.s.t.e.r"
-                      className="hover:opacity-80 transition-opacity"
-                      target="_blank"
-                      rel="noopener noreferrer">
-                      <span className="bg-[#F6F6F6] w-10 h-10 flex items-center justify-center rounded-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                          <path fill="#2A254D" d="M12 8.75a3.25 3.25 0 1 0 0 6.5a3.25 3.25 0 0 0 0-6.5" />
-                          <path fill="currentColor" fillRule="evenodd" d="M6.77 3.082a47.5 47.5 0 0 1 10.46 0c1.899.212 3.43 1.707 3.653 3.613a45.7 45.7 0 0 1 0 10.61c-.223 1.906-1.754 3.401-3.652 3.614a47.5 47.5 0 0 1-10.461 0c-1.899-.213-3.43-1.708-3.653-3.613a45.7 45.7 0 0 1 0-10.611C3.34 4.789 4.871 3.294 6.77 3.082M17 6a1 1 0 1 0 0 2a1 1 0 0 0 0-2m-9.75 6a4.75 4.75 0 1 1 9.5 0a4.75 4.75 0 0 1-9.5 0" clipRule="evenodd" />
-                        </svg>
-                      </span>
-                    </a>
-                    <a href="https://www.linkedin.com/in/manish-kumar-b-175a701b0"
-                      className="hover:opacity-80 transition-opacity"
-                      target="_blank"
-                      rel="noopener noreferrer">
-                      <span className="bg-[#F6F6F6] w-10 h-10 flex items-center justify-center rounded-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                          <g fill="#2A254D">
-                            <path fillRule="evenodd" d="M12.51 8.796v1.697a3.74 3.74 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766c-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483a1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.6 1.6 0 0 1 1.6 1.606" />
-                            <path d="M7.2 8.809H4V19.5h3.2z" />
-                          </g>
-                        </svg>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-
-                <a href="https://www.linkedin.com/in/manish-kumar-b-175a701b0"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block px-8 py-6 bg-blue-500 hover:bg-blue-600 rounded-full text-lg text-white transition-colors">
-                  Get in Touch
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
     </>

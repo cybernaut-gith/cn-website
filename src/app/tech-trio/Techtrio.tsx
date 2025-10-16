@@ -545,7 +545,7 @@ const Techtrio = () => {
                                     <Image
                                         width={1000}
                                         height={500}
-                                        src="https://res.cloudinary.com/ddpbtvesl/image/upload/v1754970532/Tech_Trio_C_hh9uo5.png"
+                                        src="https://res.cloudinary.com/ddpbtvesl/image/upload/v1760371577/Tech_Trio_C_1_rb0krz.png"
                                         alt="Certificate"
                                         className="object-contain w-full h-full"
                                     />

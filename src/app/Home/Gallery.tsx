@@ -153,8 +153,8 @@
 //           </h2>
 //           <p className="text-gray-600 lg:text-lg min-h-10 text-sm max-w-6xl mx-auto">
 //             {activeTab === 'gallery'
-//               ? <>At Cybernaut Edu-Tech, we&apos;re shaping futures with long-term programs in top institutions. <br /><span className="font-bold ">It&apos;s not a moment, it&apos;s a movement!</span></>
-//               : <>Cybernaut Edu-Tech brings the power of hands-on learning and outreach events <br /> <span className="font-bold "> Real skills, real impact, real change! </span></>}
+//               ? <>At Cybernaut EdTech, we&apos;re shaping futures with long-term programs in top institutions. <br /><span className="font-bold ">It&apos;s not a moment, it&apos;s a movement!</span></>
+//               : <>Cybernaut EdTech brings the power of hands-on learning and outreach events <br /> <span className="font-bold "> Real skills, real impact, real change! </span></>}
 //           </p>
 //         </div>
 
@@ -250,28 +250,31 @@ import ImageSlider from '@/app/Home/ImageSlider';
 
 const outreachImages  = [
   'https://res.cloudinary.com/ddpbtvesl/image/upload/v1753758991/IMG_6403_1_y1zcuu.jpg',
+  'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753758987/IMG_1044_plwnor.jpg',
+  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1754658962/02_-_SSN_xmtxza.png',
+  'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753758989/IMG_2387_mhlm3g.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/v1753758988/IMG_5297_z5iucs.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753758994/IMG_2583_ypbta9.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753758989/IMG_5656_azq1f2.jpg',
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1754658962/02_-_SSN_xmtxza.png',
+  
   'https://res.cloudinary.com/ddpbtvesl/image/upload/v1753758990/IMG_5942_mylzyn.jpg',
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753758989/IMG_2387_mhlm3g.jpg',
+
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753758994/IMG_7885_idhzrk.jpg',
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1753758992/WhatsApp_Image_2025-07-26_at_12.30.12_AM_fgix6u.jpg',
+  //9'https://res.cloudinary.com/ddpbtvesl/image/upload/v1753758992/WhatsApp_Image_2025-07-26_at_12.30.12_AM_fgix6u.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753758987/IMG_2149_wybozu.jpg',
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753758991/IMG_2796_ii0d9i.jpg',
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753758993/IMG_3493_r3a8be.jpg',
+  //11'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753758991/IMG_2796_ii0d9i.jpg',
+  //'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753758993/IMG_3493_r3a8be.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753758991/IMG_3367_nkatlv.jpg',//
   'https://res.cloudinary.com/ddpbtvesl/image/upload/v1753758985/7af0a4e9-a534-4940-8ba0-2862c6c891c7_l2wpqv.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/v1753758984/0802cb8b-0187-44d9-93fb-3459d6b987b8_iqcgla.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/v1753758987/DSC05921_etypcu.jpg',
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753758987/IMG_1044_plwnor.jpg',
+  
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753758989/IMG_4455_jqmdvm.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753758991/IMG_6854_o0rkis.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753758993/IMG_2056_xawfmd.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753758994/IMG_4567_s6i16y.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754660280/22_-_VCEW_d0mbvk.jpg',
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753758987/IMG_4170_o7s478.jpg',
+ // 23'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753758987/IMG_4170_o7s478.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753758989/IMG_2316_scdei7.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753759037/IMG_8394_kkpoki.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754660476/26_-_VEL_University_ejar8v.jpg',
@@ -283,22 +286,28 @@ const outreachImages  = [
 
 
 
+
 ];
   const galleryImages = [ // MOU signing images
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/IMG_6137_vrppyd.jpg', // srm ist
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753504296/IMG_0279_hkuqgw.jpg',// ssn
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753504297/IMG_1701_qe20ur.jpg',//
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753504302/IMG_0452_houk0x.jpg',//
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1753504298/IMG_5014_w9btdk.jpg',//
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753504299/IMG_8981_ioagir.jpg',//
+  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1760534770/1_ptexqc.jpg', // srm ist
+  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1760561937/IMG_1701_nvfygl.jpg',
+  //'https://res.cloudinary.com/ddpbtvesl/image/upload/v1760561202/3_lr0wyl.jpg',//
+  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1760561208/2_yhdbgg.jpg',// ssn
+  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1760561202/4_caliq1.jpg',//
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753504296/IMG_6147_jgwbgj.jpg',//
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753504298/IMG_7118_c5cdga.jpeg',//
+  'https://res.cloudinary.com/ddpbtvesl/image/upload/1d721912-70fb-42b5-b1b8-e27e9b134c5e_xsceam.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753504295/IMG_0181_ep1uck.jpeg',
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1753504299/IMG_9998_zf9szz.jpg',
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1753504298/IMG_8203_zt5ocg.jpg',
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1753504298/WhatsApp_Image_2025-07-26_at_12.18.24_AM_2_pvc5vs.jpg',
+  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1753504298/IMG_5014_w9btdk.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/IMG_6635_csgkur.jpg',
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/1d721912-70fb-42b5-b1b8-e27e9b134c5e_xsceam.jpg'
+  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1760534770/5_qxmfgj.jpg',//
+  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1760534770/6_gjziie.jpg',//
+  //'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1753504298/IMG_7118_c5cdga.jpeg',//
+  //'https://res.cloudinary.com/ddpbtvesl/image/upload/v1753504299/IMG_9998_zf9szz.jpg',
+  
+  //'https://res.cloudinary.com/ddpbtvesl/image/upload/v1753504298/IMG_8203_zt5ocg.jpg',//
+  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1753504298/WhatsApp_Image_2025-07-26_at_12.18.24_AM_2_pvc5vs.jpg',
+  
+  
 ];  
 // const imageNames = [
 //   "SRM Institute Of Science And Technology",
@@ -329,64 +338,70 @@ const outreachImages  = [
 
 const imageNames = [
   "SRM University",
+  "Vivekanandha College of Engineering for Women (Autonomous) ",
   "Sri Sivasubramaniya Nadar College of Engineering",
-  "Vivekanandha College of Engineering for Women ",
   "VLB Janakiammal College Of Arts & Science ",
-  "Gnanamani College of Technology",
-  "PGP College Of Arts & Science",
   "SRM Institute Of Science And Technology ",
-  "Meenakshi College Of Engineering",
+  "Mahendra College of Engineering",
   "Sri Muthukumaran Institute of Technology (SMIT) ",
-  "Kings Engineering College ",
-  "Indra Ganesan College of Engineering", // from here
-  "SKP Engineering College",
+  "Gnanamani College of Technology",
   "JKKN College of Engineering and Technology",
-  "Mahendra College of Engineering"
+  "Indra Ganesan College of Engineering",
+  "PGP College Of Arts & Science",
+  //"Meenakshi College Of Engineering",
+  //"Kings Engineering College ",
+   // from here
+  "SKP Engineering College",
+  
 
 ];
 
 const imageDescriptions = [
   "Ramapuram, Chennai",
-  "Kalavakkam, Chennai",
   "Elaiyampalayam, Tamil Nadu",
+  "Kalavakkam, Chennai",
   "Kovaipudur, Tamil Nadu",
-  "Namakkal, Tamil Nadu",
-  "Paramathi, Tamil Nadu",
   "Ramapuram, Chennai",
+  "Minnampalli, Post, Salem, Tamil Nadu",
   "Chennai, Tamil Nadu",
-  "Chennai, Tamil Nadu",
-  "Sriperumbudur, Irungattukottai, Tamil Nadu",
-  "Tiruchirappalli, Tamil Nadu", // from here
-  "Tiruvannamalai, Tamil Nadu",
+  "Namakkal, Tamil Nadu",
   "Komarapalayam, Tamil Nadu",
-  "Minnampalli, Post, Salem, Tamil Nadu"
+  "Tiruchirappalli, Tamil Nadu",
+  "Paramathi, Tamil Nadu",
+  //"Chennai, Tamil Nadu",
+  //"Sriperumbudur, Irungattukottai, Tamil Nadu",
+   // from here
+  "Tiruvannamalai, Tamil Nadu",
+  
 
 ];
 
 const outreachImageNames = [
   `Mastering Full Stack Development: Zero to Hero `,
+  'Enterprise Web Development with MERN Stack: Modern Architectures & Deployment Workflows',
+  `Web Dev Masterclass: React, Next.js & Beyond  `,
+  `Landing Your Dream Job: Placement Hacks & Strategies`,
   `Crack MAANG Interviews: DSA & System Design Secrets `,
   `Build a MAANG-Worthy Resume in 60 Minutes`,
   `FAANG Behavioral Interview: Talk Like a Pro `,
-  `Web Dev Masterclass: React, Next.js & Beyond  `,
+  
   `Ace Coding Rounds: DSA Patterns You Must Know `,
-  `Landing Your Dream Job: Placement Hacks & Strategies`,
+  
   `Power Up with Data Analytics: Insights That Matter `,
-  `The Future of AI: How Gen AI is Changing the Game`,
+  //`The Future of AI: How Gen AI is Changing the Game`,
   `AI & Gen AI: Your Shortcut to a High-Paying Career `,
-  `From College to Corporate: Tech Career Roadmap`,
-  `Gen AI in Action: Automate & Innovate with AI `,
+  //`From College to Corporate: Tech Career Roadmap`,
+  //`Gen AI in Action: Automate & Innovate with AI `,
   `Hack Your Way into MAANG: Resume & Interview Secrets`,//
   'From Idea to Deployment: Industrial Web Development Using the MERN Stack',
   'Engineering for the Future: Integrating Full Stack, Cloud, AI & Security into Modern Tech Careers',
   'End-to-End Web Engineering with Python: Architecting Full Stack Solutions for Scalable Systems',
-  'Enterprise Web Development with MERN Stack: Modern Architectures & Deployment Workflows',
   'Human-Centered Product Design: UI/UX Strategies & Rapid Prototyping with Industry Frameworks',
   'AI-Driven Systems: Engineering Scalable Machine Learning Models for Real-World Applications',
   'Generative AI in Production: Mastering Prompt Engineering & Foundation Model Integration',
   'Data-Driven Decision Making: Leveraging Business Intelligence & Advanced Analytics at Scale',
   'Driving Digital Innovation: The Convergence of Design, Development, and Artificial Intelligence',
-  'From Idea to Impact: Product Strategy, Validation & Scaling in the Tech Startup Ecosystem',
+  //'From Idea to Impact: Product Strategy, Validation & Scaling in the Tech Startup Ecosystem',
   'Big Data at Scale: Building Distributed Pipelines & Cloud-Native Data Warehouses',
   'Building Cross-Platform Mobile Applications: Scalable Architecture with Flutter & Firebase',
   'Tech Career 360°: A Guided Path through Full Stack, Cloud, AI & Security',
@@ -396,28 +411,31 @@ const outreachImageNames = [
 
 const outreachImageDescriptions = [
   "SRM Institute Of Science And Technology(Ramapuram, Chennai)",
+  `Vivekanandha College of Arts and Science for Women ( salem )`,
+  `Sri Sivasubramaniya Nadar College of Engineering ( Kalavakkam, Chennai )`,
+  `Vivekanandha College of Engineering for Women ( Tiruchengode )`,
   `Vivekanandha College of Arts and Science for Women ( Tiruchengode )`,
   `Sacred Heart College ( Tiruppattur )`,
   `Vel Tech Multi Tech Dr.Rangarajan Dr.Sakunthala Engineering College ( Avadi )`,
-  `Sri Sivasubramaniya Nadar College of Engineering ( Kalavakkam, Chennai )`,
+  
   `Guru Nanak College ( Chennai )`,
-  `Vivekanandha College of Engineering for Women ( Tiruchengode )`,
+  
   `KPR College of Arts Science and Research ( Uthupalayam )`,
-  `SIMATS ENGINEERING ( Chennai )`,
+  //`SIMATS ENGINEERING ( Chennai )`,
   `Rajalakshmi Engineering College ( Thandalam, Chennai )`,
-  `Vel Tech High Tech Dr.Rangarajan Dr.Sakunthala Engineering College ( Avadi )`,
-  `Erode Sengunthar Engineering College ( Erode )`,
+  //`Vel Tech High Tech Dr.Rangarajan Dr.Sakunthala Engineering College ( Avadi )`,
+  //`Erode Sengunthar Engineering College ( Erode )`,
   `Knowledge Institute of Technology ( Kakapalayam, Salem )`,
   'Guru Nanak College ( Chennai )',
   'Mahendra College of Engineering ( Minnampalli )',
   'SRM Institute Of Science And Technology(Ramapuram, Chennai)',
-  'Vivekanandha Arts & Science College for Women (Salem )',
+  //'Vivekanandha Arts & Science College for Women (Salem )',
   'Vivekanandha College of Engineering for Women ( Tiruchengode )',
   'Gnyanamani Educational Institutions ( Namakkal )',
   'AVS College of Technology ( Salem ) ',
   'Paavai Engineering College ( Namakkal )',
   'Vivekanandha College of Engineering for Women ( Tiruchengode )',
-  'DG Vaishnav College ( Chennai )',
+  //'DG Vaishnav College ( Chennai )',
   'Rajalakshmi Engineering College ( Thandalam, Chennai )',
   'ARASU COLLEGE OF ARTS & SCIENCE FOR WOMEN ( Karur ) ',
   'Vels Institute of Science, Technology & Advanced Studies (VISTAS)'

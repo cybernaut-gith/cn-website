@@ -195,7 +195,7 @@ const Offers = () => {
 
                                     </h1>
                                     <h1  className="flex w-full text-sky-500 font-bold text-2xl lg:text-5xl tracking-wider">{activeTab === 'colleges' ? 'colleges' : 'companies'}</h1>
-                                    <h1 className='my-2 flex w-full text-start text-sm  lg:text-4xl'>Cybernaut Edu-Tech has conducted 100+ outreach programs, partnered with 25+ colleges for VAC and placement training, and supported 25+ institutions with product and tech solutions. We bridge the gap between academics and industry, empowering institutions for digital success.</h1>
+                                    <h1 className='my-2 flex w-full text-start text-sm  lg:text-4xl'>Cybernaut EdTech has conducted 100+ outreach programs, partnered with 25+ colleges for VAC and placement training, and supported 25+ institutions with product and tech solutions. We bridge the gap between academics and industry, empowering institutions for digital success.</h1>
 
                                     <ul className='w-full pb-5'>
                                         <div className='flex gap-2 justify-start '>
@@ -257,7 +257,7 @@ const Offers = () => {
                                     
 
                                         <p className="text-gray-800 text-justify w-[565px] min-h-10">
-                                            Cybernaut Edu-Tech has led 100+ outreach programs, partnered with 25+ colleges for VAC and placements, and helped 25+ institutions with tech solutions, bridging academics and industry.
+                                            Cybernaut EdTech has led 100+ outreach programs, partnered with 25+ colleges for VAC and placements, and helped 25+ institutions with tech solutions, bridging academics and industry.
                                         </p>
 
 
@@ -303,7 +303,7 @@ const Offers = () => {
                                         <h1 className="text-2xl font-sans font-extrabold flex w-[31rem] justify-start tracking-wider">What We Offer for Companies to Enhance Growth and Success</h1>
                                      
                                         <p className="text-gray-800  text-justify w-[565px] min-h-20 ">
-                                            Cybernaut Edu-Tech helps companies build strong teams, streamline hiring, and drive impactful initiatives, offering solutions to grow, adapt, and thrive in a dynamic corporate landscape.
+                                            Cybernaut EdTech helps companies build strong teams, streamline hiring, and drive impactful initiatives, offering solutions to grow, adapt, and thrive in a dynamic corporate landscape.
                                         </p>
                                     </div>
                                     <div className="w-full h-96 flex mt-5 flex-col gap-5 ">

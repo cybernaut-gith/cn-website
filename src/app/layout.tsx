@@ -20,7 +20,7 @@ const quicksand = Quicksand({
 });
 
 export const metadata: Metadata = {
-  title: "Cybernaut Edu-Tech",
+  title: "Cybernaut EdTech",
   description: "We Create Leaders not Employees",
   icons: {
     icon: "/favicon.ico",

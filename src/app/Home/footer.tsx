@@ -139,7 +139,7 @@ const Footer = () => {
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
               {/* Copyright */}
               <p className='text-gray-400 text-sm sm:text-base text-left'>
-                © 2024 Cybernaut Edu-Tech. All rights reserved.
+                © 2024 Cybernaut EdTech. All rights reserved.
               </p>
               
               {/* Additional Links */}

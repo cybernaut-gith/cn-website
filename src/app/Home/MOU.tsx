@@ -49,7 +49,7 @@ const MOU = () => {
       <div className="container hidden lg:block mx-auto min-h-20 p-10 px-6 text-center relative space-y-5">
         <h1 className="text-[#141515] font-heading font-bold mb-4 text-4xl" style={{ fontFamily: 'Loubag' }}>OUR MOU PARTNERS</h1>
         <p className="mb-8 lg:w-8/12 mx-auto">
-          At Cybernaut Edu-Tech, we offer premier educational solutions, including products, services, and training programs. Partner with us to enhance your institution&apos;s learning experience.
+          At Cybernaut EdTech, we offer premier educational solutions, including products, services, and training programs. Partner with us to enhance your institution&apos;s learning experience.
         </p>
         <Marquee gradient={false} pauseOnHover={true} speed={50}>
           <div className="flex gap-10 ml-10">
@@ -66,7 +66,7 @@ const MOU = () => {
       <div className="lg:hidden block mx-auto min-h-80 text-center relative px-4 pb-10">
         <h1 className="text-xl font-bold pt-6 pb-2" style={{ fontFamily: 'Loubag' }}>OUR MOU PARTNERS</h1>
         <p className="w-11/12 mx-auto text-sm pb-4">
-          At Cybernaut Edu-Tech, we offer premier educational solutions, including products, services, and training programs. Partner with us to enhance your institution&apos;s learning experience.
+          At Cybernaut EdTech, we offer premier educational solutions, including products, services, and training programs. Partner with us to enhance your institution&apos;s learning experience.
         </p>
         <Marquee gradient={false} pauseOnHover={true} speed={40} className="overflow-hidden">
           <div className="flex items-center gap-4 px-2">

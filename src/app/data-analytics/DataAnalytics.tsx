@@ -530,7 +530,7 @@ const DataAnalytics = () => {
                                     <Image
                                         width={500}
                                         height={500}
-                                        src="https://res.cloudinary.com/ddpbtvesl/image/upload/v1754970245/MetaZEN_extnqx.png"
+                                        src="https://res.cloudinary.com/ddpbtvesl/image/upload/v1760371577/Data_analytics_x9blzb.png"
                                         alt="Certificate"
                                         className="object-contain w-full h-full"
                                     />

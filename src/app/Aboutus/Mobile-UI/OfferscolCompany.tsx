@@ -50,7 +50,7 @@ function Mobileoffers() {
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-blue-500 mt-1.5"></div>
                   <p className="text-gray-700 w-64">
-                    Cybernaut Edu-Tech connects colleges with industry experts to foster innovation and career growth.
+                    Cybernaut EdTech connects colleges with industry experts to foster innovation and career growth.
                   </p>
                 </div>
                 <div className="flex items-start gap-3">

@@ -199,7 +199,7 @@ const autoContents = [
 const [bodycontent, setBodyContent] = useState(0); // Initialize with 0   
 const bodycontents = [
 "Learn to code, build innovative solutions, and shape the digital future. Every line you write brings you closer to new possibilities and powers the next big breakthrough. Step into the world of tech—your adventure begins now!",
-"At Cybernaut Edu-Tech, we empower students to code, create, and innovate with industry-leading tools. Together, let's shape the future of learning and technology!",
+"At Cybernaut EdTech, we empower students to code, create, and innovate with industry-leading tools. Together, let's shape the future of learning and technology!",
 "Connect with tech minds, access exclusive resources, and level up your skills. At CDSC, innovation isn’t just learned—it’s built. Ready to enter the next era of tech?"
 ];
 
@@ -246,7 +246,7 @@ let newContent = content;
 if (scrollPosition < 500) {
 newContent = 'Learn to code, build innovative solutions, and shape the digital future. Every line you write brings you closer to new possibilities and powers the next big breakthrough. Step into the world of tech—your adventure begins now!';
 } else if (scrollPosition < 1000) {
-newContent = `At Cybernaut Edu-Tech, we empower students to code, create, and innovate with industry-leading tools. Together, let's shape the future of learning and technology!`;
+newContent = `At Cybernaut EdTech, we empower students to code, create, and innovate with industry-leading tools. Together, let's shape the future of learning and technology!`;
 } else {
 newContent = `Connect with tech minds, access exclusive resources, and level up your skills. At CDSC, innovation isn’t just learned—it’s built. Ready to enter the next era of tech?`;
 }
@@ -314,12 +314,12 @@ return () => clearInterval(interval);
 // slider
 const [, setCurrentSlide] = useState(0)
   const sliderImages = [
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1755186734/imggg_nckqt5.jpg',
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657083/2_lkf8lf.jpg',
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657084/4_awi3ve.jpg',
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1754657094/3_msykn9.jpg',
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657101/6_jqatla.jpg',
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657127/5_n84jvq.jpg', // b2c
+  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1760535277/1_eptth7.jpg',
+  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1760535278/2_sraoul.heic',
+  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1760535278/3_qc1hl6.jpg',
+  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1760535278/4_i766zi.heic',
+  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1760535278/5_rmp1x2.jpg',
+  'https://res.cloudinary.com/ddpbtvesl/image/upload/v1760535278/6_xx4dcx.heic', // b2c
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657607/1_zump3v.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657604/2_s7h8bu.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657604/3_a0bfow.jpg',

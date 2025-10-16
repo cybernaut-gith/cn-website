@@ -107,7 +107,7 @@ function About() {
                     </h1>
                     {/* Description */}
                     <p className="text-gray-600 lg:w-10/12 lg:text-start text-justify ">
-                        At Cybernaut Edu-Tech, we offer premier educational solutions, including
+                        At Cybernaut EdTech, we offer premier educational solutions, including
                         products, services, and training programs. Partner with us to enhance your
                         institution&apos;s learning experience.
                     </p>
