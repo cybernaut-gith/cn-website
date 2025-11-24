@@ -65,7 +65,7 @@ const Founders = () => {
   return (
     <>
       <div className='hidden'>
-        <h1 className='lg:text-2xl text-lg flex items-center font-professional font-bold text-center my-2 '>MEET OUR <span className='text-blue-500'>FOUNDERS</span></h1>
+        <h1 className='lg:text-2xl text-lg flex items-center font-professional font-bold text-center my-2 '>MEET OUR <span className='text-blue-500'>FOUNDER</span></h1>
 
         <p className='lg:text-lg mx-auto my-8 lg:px-[130px] lg:w-11/12 w-10/12 lg:text-center text-start xl:container '>Unlock your potential with our advanced educational tools and top-tier training. Join 10,000+ successful learners and enhance your skills with Tech Trio, Full Stack, UI & UX, and more. Find the perfect program for your career goals today.</p>
         <div>
@@ -219,7 +219,7 @@ const Founders = () => {
       {/* ================================================================================================================ */}
       <section className='space-y-10 lg:py-10'>
         <div className='flex flex-col justify-center space-y-5 mx-auto lg:py-10'>
-          <h1 style={{ fontFamily: 'Loubag' }} className='lg:text-3xl text-2xl   text-center  font-bold my-2 gap-2 tracking-wider '>MEET OUR FOUNDERS </h1>
+          <h1 style={{ fontFamily: 'Loubag' }} className='lg:text-3xl text-2xl   text-center  font-bold my-2 gap-2 tracking-wider '>MEET OUR FOUNDER </h1>
 
           <p className='text-center lg:max-w-3xl w-11/12  text-sm lg:text-lg mx-auto'>
             Unlock your potential with our advanced educational tools and top-tier training. Join 10,000+ successful learners and enhance your skills with Tech Trio, Full Stack, UI & UX, and more. Find the perfect program for your career goals today.
@@ -355,7 +355,7 @@ const Founders = () => {
         <div className="container mx-auto px-4 mb-16">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-3xl md:text-4xl font-bold mb-6 text-[#1F1F3D]">
-              MEET OUR FOUNDERS
+              MEET OUR FOUNDER
             </h1>
             <p className="text-gray-600 text-lg">
               Unlock your potential with our advanced educational tools and top-tier training.

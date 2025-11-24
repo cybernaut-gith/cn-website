@@ -12,7 +12,7 @@ const footerData = {
     line3: "Tamil Nadu 639003"
   },
   socialLinks: [
-    { icon: <Linkedin size={20} />, href: "https://www.linkedin.com/company/cybernautedu-tech/", label: "LinkedIn" },
+    { icon: <Linkedin size={20} />, href: "https://www.linkedin.com/company/cybernautEd-tech/", label: "LinkedIn" },
     { icon: <Instagram size={20} />, href: "https://www.instagram.com/cybernautofficial", label: "Instagram" }
   ],
   sections: [

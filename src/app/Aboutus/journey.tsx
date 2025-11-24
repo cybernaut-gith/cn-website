@@ -36,7 +36,7 @@ const timelineContent: TimelineContent = {
       {
         image: "https://res.cloudinary.com/ddpbtvesl/image/upload/v1753868085/eb3f4de1-b021-4bff-901f-ffe513b185fd.png",
         title: 'Became a Company',
-        description: 'Cybernaut has grown into an Edu-tech company, combining theory and practical skills through advanced programs to help learners gain real-world knowledge and succeed.',
+        description: 'Cybernaut has grown into an Ed-tech company, combining theory and practical skills through advanced programs to help learners gain real-world knowledge and succeed.',
       },
     ],
   },
@@ -86,7 +86,7 @@ const journeyData: JourneyData[] = [
   {
     year: 2022,
     title: "Became a Company",
-    description: "Cybernaut has grown into an Edu-tech company, combining theory and practical skills through advanced programs to help learners gain real-world knowledge and succeed.",
+    description: "Cybernaut has grown into an Ed-tech company, combining theory and practical skills through advanced programs to help learners gain real-world knowledge and succeed.",
     image: "https://res.cloudinary.com/ddpbtvesl/image/upload/v1753868085/eb3f4de1-b021-4bff-901f-ffe513b185fd.png"
   },
   {
@@ -243,7 +243,7 @@ export default function Journey(): JSX.Element {
               Our Journey
             </h1>
             <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-              Cybernaut started as a college club and grew into an Edu-Tech company, driven by
+              Cybernaut started as a college club and grew into an Ed-tech company, driven by
               innovation, learning, and a mission to empower future leaders.
             </p>
             <div className="flex items-center justify-center gap-4 mb-8">

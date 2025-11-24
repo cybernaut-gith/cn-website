@@ -211,7 +211,7 @@ export default function ContactSection() {
               targetBlack
               linkTitle="Visit Us"
               isAddressVisible={true}
-              linkURL="https://www.google.com/maps/place/Cybernaut+Edu-Tech/@10.9401924,78.0816167,17z/data=!3m1!4b1!4m6!3m5!1s0x3a52612db12b7465:0x3435315858221247!8m2!3d10.9401871!4d78.0841916!16s%2Fg%2F11rscsms4l?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D"
+              linkURL="https://www.google.com/maps/place/Cybernaut+Ed-tech/@10.9401924,78.0816167,17z/data=!3m1!4b1!4m6!3m5!1s0x3a52612db12b7465:0x3435315858221247!8m2!3d10.9401871!4d78.0841916!16s%2Fg%2F11rscsms4l?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D"
               addressContent="43/a, Nehru Nagar, Rayanur, Thoronakkalpatti, Karur, Tamil Nadu 639003"
             >
               <MapPinned className="size-4" />

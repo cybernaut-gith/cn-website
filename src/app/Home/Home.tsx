@@ -85,7 +85,7 @@ return 'border-green-500 bg-green-100';
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657084/4_awi3ve.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/v1754657094/3_msykn9.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657101/6_jqatla.jpg',
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657127/5_n84jvq.jpg', // b2c
+  //'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657127/5_n84jvq.jpg', // b2c
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657607/1_zump3v.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657604/2_s7h8bu.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657604/3_a0bfow.jpg',
@@ -323,7 +323,7 @@ const [, setCurrentSlide] = useState(0)
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657607/1_zump3v.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657604/2_s7h8bu.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657604/3_a0bfow.jpg',
-  'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657610/3_1_qaqgjo.jpg',
+  //'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657610/3_1_qaqgjo.jpg', //m
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657600/4_zctk3i.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657608/5_gr6b0h.jpg',
   'https://res.cloudinary.com/ddpbtvesl/image/upload/f_auto/v1754657598/6_epkorv.jpg', // b2b

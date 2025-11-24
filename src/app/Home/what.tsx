@@ -47,7 +47,7 @@ const WhatWeDo = () => {
               <h3 className="text-blue-500 font-professional font-semibold">About Us</h3>
 
               {/* Main heading */}
-              <h1 className="text-2xl w-full text-[#141515] font-professional font-bold mb-4 tracking-wider">Edu-Tech Platform for Skill Development</h1>
+              <h1 className="text-2xl w-full text-[#141515] font-professional font-bold mb-4 tracking-wider">Ed-tech Platform for Skill Development</h1>
 
               {/* Description */}
               <p className="text-gray-600">
