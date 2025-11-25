@@ -227,6 +227,9 @@ export default function RegistrationForm() {
             <div className="text-xs text-slate-300 font-semibold">
               Scan QR to Pay Registration Fee
             </div>
+            <div className="text-xs text-red-400 font-bold text-center">
+              NO REFUND
+            </div>
 
             <Image
               src="https://res.cloudinary.com/ddpbtvesl/image/upload/v1763924172/qr_mmkscu.png"
@@ -357,23 +360,32 @@ export default function RegistrationForm() {
               />
             </div>
 
-            <div className="flex flex-col gap-1">
-              <label className="text-xs font-medium text-slate-300">
-                Year *
-              </label>
-              <select
-                value={captainYear}
-                onChange={(e) => setCaptainYear(e.target.value)}
-                className="rounded-md border border-slate-400/30 bg-white/5 px-3 py-2 text-sm text-white"
-                required
-              >
-                <option value="">Select Year</option>
-                <option value="1st">1st Year</option>
-                <option value="2nd">2nd Year</option>
-                <option value="3rd">3rd Year</option>
-                <option value="4th">4th Year</option>
-              </select>
-            </div>
+           <div className="flex flex-col gap-1">
+            <label className="text-xs font-medium text-slate-300">Year *</label>
+            <select
+              value={captainYear}
+              onChange={(e) => setCaptainYear(e.target.value)}
+              className="rounded-md border border-slate-400/30 bg-white/5 px-3 py-2 text-sm text-white focus:outline-none focus:ring-2 focus:ring-orange-500"
+              required
+            >
+              <option value="" className="bg-slate-900">
+                Select Year
+              </option>
+              <option value="1st" className="bg-slate-900">
+                1st Year
+              </option>
+              <option value="2nd" className="bg-slate-900">
+                2nd Year
+              </option>
+              <option value="3rd" className="bg-slate-900">
+                3rd Year
+              </option>
+              <option value="4th" className="bg-slate-900">
+                4th Year
+              </option>
+            </select>
+          </div>
+
 
             <div className="flex flex-col gap-1 md:col-span-2">
               <label className="text-xs font-medium text-slate-300">
@@ -392,7 +404,7 @@ export default function RegistrationForm() {
 
       {/* MEMBERS */}
       <div className="space-y-4">
-        <h2 className="text-lg font-bold text-white">Team Members (4)</h2>
+        <h2 className="text-lg font-bold text-white">Team Members (excluding captain) </h2>
 
         <div className="space-y-3">
           {members.map((member, idx) => (

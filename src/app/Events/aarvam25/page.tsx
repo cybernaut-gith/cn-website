@@ -49,7 +49,7 @@ export default function AARVAM25Page() {
 
           <a href="/" className="flex items-center gap-3">
             <Image 
-              src="https://res.cloudinary.com/ddpbtvesl/image/upload/v1764007567/Group_325_bzp621.png" 
+              src="https://res.cloudinary.com/ddpbtvesl/image/upload/v1764093372/Group_333_wictko.png" 
               alt="AARVAM '25" 
               width={120} 
               height={40} 
@@ -123,7 +123,7 @@ export default function AARVAM25Page() {
                   👥 {data.teamSize} Members/Team (Fixed)
                 </span>
                 <span className="inline-flex items-center gap-2">
-                  🗓️ 17 Nov – 30 Nov 2025
+                  🗓️ 20 Dec – 21 Dec 2025
                 </span>
               </div>
             </div>
@@ -170,7 +170,7 @@ export default function AARVAM25Page() {
                     <span className="text-green-400">✔</span> Learnthon bootcamp: 8th to 12th
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-orange-400">⏱</span> Problem statements release: 15th
+                    <span className="text-orange-400">⏱</span> Problem statements release: 16th
                   </li>
                 </ul>
               </div>
@@ -206,7 +206,7 @@ export default function AARVAM25Page() {
                   <div className="text-2xl">📅</div>
                   <div className="space-y-1">
                     <h3 className="text-xs font-bold text-white">Dates</h3>
-                    <p className="text-xs text-slate-400">17 Nov - 30 Nov</p>
+                    <p className="text-xs text-slate-400">20 Dec - 21 Dec</p>
                   </div>
                 </div>
 
@@ -382,7 +382,7 @@ export default function AARVAM25Page() {
                   <div className="rounded-2xl border-2 border-orange-400 bg-white/5 p-6 space-y-3">
                     <div className="flex items-center gap-3">
                       <span className="text-orange-400 font-bold text-2xl">🗓️</span>
-                      <h3 className="text-base font-bold text-orange-400">Registration Phase (Nov 17–30)</h3>
+                      <h3 className="text-base font-bold text-orange-400">Registration Phase (Nov 17–3 Dec)</h3>
                     </div>
                     <p className="text-sm text-slate-300">Teams of 5 register through the official link and complete payment. After confirmation, teams receive instructions and Learnthon access details.</p>
                   </div>
@@ -399,7 +399,7 @@ export default function AARVAM25Page() {
                   <div className="rounded-2xl border-2 border-orange-400 bg-white/5 p-6 space-y-3">
                     <div className="flex items-center gap-3">
                       <span className="text-orange-400 font-bold text-2xl">⏱️</span>
-                      <h3 className="text-base font-bold text-orange-400">Registration Closes (30 Nov)</h3>
+                      <h3 className="text-base font-bold text-orange-400">Registration Closes (3 Dec)</h3>
                     </div>
                     <p className="text-sm text-slate-300">Last chance to register. After this date, no new registrations will be accepted.</p>
                   </div>
@@ -427,7 +427,7 @@ export default function AARVAM25Page() {
                   <div className="rounded-2xl border-2 border-orange-400 bg-white/5 p-6 space-y-3">
                     <div className="flex items-center gap-3">
                       <span className="text-orange-400 font-bold text-2xl">📋</span>
-                      <h3 className="text-base font-bold text-orange-400">Problem Statement (Dec 15)</h3>
+                      <h3 className="text-base font-bold text-orange-400">Problem Statement (Dec 16)</h3>
                     </div>
                     <p className="text-sm text-slate-300">On 16th morning, teams receive five real-world problem statements. Each team selects one and begins research, ideation, and planning.</p>
                   </div>
@@ -440,7 +440,7 @@ export default function AARVAM25Page() {
                       <span className="text-orange-400 font-bold text-2xl">⚡</span>
                       <h3 className="text-base font-bold text-orange-400">24 Hours Design Sprint (Dec 20–21)</h3>
                     </div>
-                    <p className="text-sm text-slate-300">Industry mentors guide teams with feedback and help refine ideas. These reviews ensure teams stay aligned with the problem statement.</p>
+                    <p className="text-sm text-slate-300">Teams work for 24 hours to research, design, prototype, and prepare their final slides.This sprint tests creativity, teamwork, and time management.</p>
                   </div>
                   <div className="flex justify-start">
                     <div className="w-4 h-4 rounded-full bg-orange-500 ring-4 ring-orange-500/30 translate-x-[-1.5rem] translate-y-6" />
@@ -598,72 +598,68 @@ export default function AARVAM25Page() {
               <div className="h-1 w-24 bg-orange-500 rounded" />
             </div>
 
-            <div className="space-y-10">
-              {/* Terms Section */}
-              <div className="space-y-6">
-                <h3 className="text-2xl font-bold text-white">3 Terms</h3>
-                
-                <div className="space-y-4 text-sm text-slate-300">
-                  <div>
-                    <span className="font-bold text-orange-300">1. No Refund Policy</span>
-                    <p className="mt-1">All registration fees are non-refundable, under any circumstance.</p>
-                  </div>
+            <div className="space-y-10 text-sm text-slate-300 leading-relaxed">
+              <p>
+                <span className="font-bold text-orange-300">No Refund Policy:</span>{" "}
+                All registration fees are strictly non-refundable under any circumstance.
+              </p>
 
-                  <div>
-                    <span className="font-bold text-orange-300">2. Team Requirement</span>
-                    <p className="mt-1">Entry is valid only for teams of 5 members. Incomplete teams will not be allowed.</p>
-                  </div>
+              <p>
+                <span className="font-bold text-orange-300">Team Requirement:</span>{" "}
+                Participation is allowed only for teams consisting of exactly five members.
+                Teams with fewer members will not be permitted.
+              </p>
 
-                  <div>
-                    <span className="font-bold text-orange-300">3. Learnthon Completion</span>
-                    <p className="mt-1">Participants must attend the Learnthon or watch the recordings and submit their prototype to receive the Learnthon Certificate + Grand Finale Entry Pass.</p>
-                  </div>
-                </div>
-              </div>
+              <p>
+                <span className="font-bold text-orange-300">Learnthon Completion:</span>{" "}
+                Participants must either attend the Learnthon sessions or watch the recordings
+                and submit their prototype in order to receive the Learnthon Certificate and 
+                the Grand Finale Entry Pass.
+              </p>
 
-              {/* Conditions Section */}
-              <div className="space-y-6">
-                <h3 className="text-2xl font-bold text-white">7 Conditions</h3>
-                
-                <div className="space-y-4 text-sm text-slate-300">
-                  <div>
-                    <span className="font-bold text-orange-300">Mandatory On-Site Presence</span>
-                    <p className="mt-1">All 5 team members must be physically present at the venue for the full 24 hours.</p>
-                  </div>
+              <p>
+                <span className="font-bold text-orange-300">Mandatory On-Site Presence:</span>{" "}
+                All five members of the team are required to be physically present at the venue 
+                for the entire 24-hour Grand Finale event.
+              </p>
 
-                  <div>
-                    <span className="font-bold text-orange-300">1. ID Verification Required</span>
-                    <p className="mt-1">Students must bring a valid College ID and their Grand Finale Ticket Pass.</p>
-                  </div>
+              <p>
+                <span className="font-bold text-orange-300">ID Verification:</span>{" "}
+                Every participant must bring a valid college ID card along with their Grand Finale Ticket Pass.
+              </p>
 
-                  <div>
-                    <span className="font-bold text-orange-300">2. Original Work Only</span>
-                    <p className="mt-1">All designs, ideas, and submissions must be original and created during the event.</p>
-                  </div>
+              <p>
+                <span className="font-bold text-orange-300">Original Work:</span>{" "}
+                All ideas, designs, prototypes, and final submissions must be original 
+                and created during the event period. Plagiarism will lead to disqualification.
+              </p>
 
-                  <div>
-                    <span className="font-bold text-orange-300">3. Follow Checkpoints</span>
-                    <p className="mt-1">Teams must attend all 3 checkpoints and 2 judging rounds to stay eligible.</p>
-                  </div>
+              <p>
+                <span className="font-bold text-orange-300">Event Checkpoints:</span>{" "}
+                Teams are expected to attend all checkpoints and judging rounds 
+                to remain eligible for evaluation and final prizes.
+              </p>
 
-                  <div>
-                    <span className="font-bold text-orange-300">4. Bring Your Own Devices</span>
-                    <p className="mt-1">Participants must bring their laptop, chargers, and required tools.</p>
-                  </div>
+              <p>
+                <span className="font-bold text-orange-300">Bring Your Own Devices:</span>{" "}
+                Participants must bring their own laptops, chargers, and any required tools 
+                needed for their project.
+              </p>
 
-                  <div>
-                    <span className="font-bold text-orange-300">5. No Misconduct</span>
-                    <p className="mt-1">Any form of misconduct, harassment, or rule violation will lead to immediate disqualification.</p>
-                  </div>
+              <p>
+                <span className="font-bold text-orange-300">Code of Conduct:</span>{" "}
+                Any form of misconduct, harassment, or violation of event rules will result 
+                in immediate disqualification and removal from the venue.
+              </p>
 
-                  <div>
-                    <span className="font-bold text-orange-300">6. Organizer's Decision Final</span>
-                    <p className="mt-1">Judging decisions and event rules by Cybernaut EdTech will be final and binding.</p>
-                  </div>
-                </div>
-              </div>
+              <p>
+                <span className="font-bold text-orange-300">Final Authority:</span>{" "}
+                All decisions made by Cybernaut EdTech regarding judging, rules, 
+                and event management are final and binding on all participants.
+              </p>
             </div>
-          </section>
+          </section> 
+
 
           {/* REGISTRATION */}
           <section id="registration" className="space-y-10">
@@ -681,12 +677,12 @@ export default function AARVAM25Page() {
               <RegistrationForm />
             </div>
 
-            <div className="text-xs text-slate-500">
+            <div className="text-xs text-slate-500 -mt-3">
               By registering, you agree to onsite conduct and originality rules.
             </div>
           </section>
 
-          <Link href="/Events" className="text-sm text-orange-400 hover:underline">
+          <Link href="/Events" className="text-sm text-orange-400 hover:underline -mt-6 block">
             ← Back to Events
           </Link>
         </div>
@@ -708,7 +704,7 @@ export default function AARVAM25Page() {
             <h3 className="font-semibold text-slate-200">Contact</h3>
             <p className="text-sm text-slate-400">📍 Cybernaut Edtech, Karur Branch</p>
             <p className="text-sm text-slate-400">📞 6382055035</p>
-            <p className="text-sm text-slate-400">📧 info@cybernaut.edu</p>
+            <p className="text-sm text-slate-400">📧 support@cybernaut.co.in</p>
           </div>
 
           <div className="space-y-2">
