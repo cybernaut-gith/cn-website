@@ -25,8 +25,8 @@ const hackathons: Record<string, any> = {
       { label: 'Hack End', date: '2025-11-18' }
     ],
     mentors: [
-      { name: 'Nishok S', role: 'CMO of Nipk Technology', image: 'https://res.cloudinary.com/ddpbtvesl/image/upload/v1763894038/Rectangle_1127_fbaiyd.png' },
-      { name: 'Prashanth M', role: 'CEO of Nipk Technology', image: 'https://res.cloudinary.com/ddpbtvesl/image/upload/v1763894103/Rectangle_1128_nrf78r.png' },
+      { name: 'Nishok S', role: 'CMO of Nipix Technology', image: 'https://res.cloudinary.com/ddpbtvesl/image/upload/v1763894038/Rectangle_1127_fbaiyd.png' },
+      { name: 'Prashanth M', role: 'CEO of Nipix Technology', image: 'https://res.cloudinary.com/ddpbtvesl/image/upload/v1763894103/Rectangle_1128_nrf78r.png' },
       { name: 'Dinesh M', role: 'Full Stack developer', image: 'https://res.cloudinary.com/ddpbtvesl/image/upload/v1763894038/Rectangle_1129_zeru9b.png' },
       { name: 'Shyam Prasath S', role: 'Graphical Designer', image: 'https://res.cloudinary.com/ddpbtvesl/image/upload/v1763894039/Rectangle_1130_swqq9i.png' },
       { name: 'Nitheesh kumar S', role: '3D generalist', image: 'https://res.cloudinary.com/ddpbtvesl/image/upload/v1763894039/Rectangle_1131_tpuunt.png' },
@@ -34,8 +34,8 @@ const hackathons: Record<string, any> = {
     ],
     judges: [
       { name: 'Naveen Kumar', role: 'SDE II', image: 'https://res.cloudinary.com/demo/image/upload/sample.jpg' },
-      { name: 'Ajith Selvaraju', role: 'Founder & CEO N Kisi', image: 'https://res.cloudinary.com/demo/image/upload/sample.jpg' },
-      { name: 'Dr. M. Ramkumar', role: 'HOD-CSEB, KIOT', image: 'https://res.cloudinary.com/demo/image/upload/sample.jpg' },
+      { name: 'Ajith Selvaraju', role: "Founder & CEO N'Kisi", image: 'https://res.cloudinary.com/demo/image/upload/sample.jpg' },
+      { name: 'Dr. M. Ramkumar', role: 'HOD-CSBS, KIOT', image: 'https://res.cloudinary.com/demo/image/upload/sample.jpg' },
       { name: 'A. Sekar', role: 'Head - Incubation, KIOT', image: 'https://res.cloudinary.com/demo/image/upload/sample.jpg' },
       { name: 'Saravanan', role: 'Human Resource', image: 'https://res.cloudinary.com/demo/image/upload/sample.jpg' }
     ],
